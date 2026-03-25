@@ -4,6 +4,5 @@ export interface ApiResponse<T> {
   "data": {
     "service": "purchase-api",
     "version": "1.0.0"
-  },
-  "message": "Hello NestJS"
+  }
 }
