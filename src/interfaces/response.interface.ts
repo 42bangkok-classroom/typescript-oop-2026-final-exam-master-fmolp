@@ -1,6 +1,9 @@
 // ใช้เป็น response มาตรฐานทุก endpoint
 export interface ApiResponse<T> {
-  data: T | null;
-  message: string;
-  success: boolean;
+  success: true,
+  data: {
+    service: 'purchase-api',
+    version: '1.0.0',
+  },
+  message: 'Hello NestJS',
 }
